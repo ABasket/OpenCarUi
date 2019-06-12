@@ -4,7 +4,8 @@
   "description": "这是一个UI框架",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/ABasket/gulu/issues"
   },
-  "homepage": "https://github.com/ABasket/gulu#readme"
+  "homepage": "https://github.com/ABasket/gulu#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+     "@vue/component-compiler-utils": "^ 2.5.2 "
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  }
 }
